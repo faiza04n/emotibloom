@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Flask and environment files
+.env
+.env.*
+instance/
+data/orders.xlsx
+
+# Local databases and generated files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+*.bak
+*.zip
+
+# IDEs and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
